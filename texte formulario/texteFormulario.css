@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25%;
+    
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/*parte inicial do site*/
+header{
+    background-color:#A817B0;
+    padding:15px 10px;
+    margin: 0px 0px;
+}
+
+.title-supreme2{
+    color: #FCF63A;
+    font-family: 'Fredoka', sans-serif;
+    font-size: medium; 
+}
+
+.title-supreme{
+    color: #FCF63A;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 40px;
+    padding-top: 0px;
+
+}
+
+.linkhome:link{
+    color: #FCF63A;
+    text-decoration: none;
+}
+.linkhome:visited{
+    color: #FCF63A;
+}
+.linkhome:hover{
+    background-color: #A817B0;
+}
+
+#login{
+    background-color: #6B0F70;
+    position: relative;
+    left: 65%;
+    bottom: 90px;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+nav > a{   
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: bold;
+        margin:50px 40px 5px 10px;
+        padding: 5px 8px;
+        border-radius: 7px;
+}
+
+a:link{
+    color: whitesmoke
+}
+ 
+a:hover{
+    color: #F5CC47;
+    background-color: #78107D;
+}
+a:focus{
+    color: #F5CC47;
+    background-color: #78107D;
+}
+
+/*Conteúdo do site*/
+
+        /*titulo*/
+#title-inicial{
+    position: absolute;
+    top: 27%;
+    left: 18%;
+}
+p{
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    left: 14%;
+    top: 35%;
+}
+h1, p, label{
+    color: #4A272A;
+}
+
+        /*formulario*/
+
+form#form{
+    border: none;
+    position: absolute;
+    left: 14%;
+    top: 45%;
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+fieldset{
+    border: 0px;
+}
+
+input, select, textarea, button{
+    border-radius: 7px;
+}
+.text{
+    border-width: 1px;
+}
+.text:focus{
+    background-color: rgba(120, 16, 125, 0.171)
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}

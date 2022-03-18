@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo de Seletores</title>
+    <link rel="stylesheet" href="style.css">
+</head>    
+<body>
+    <h3>MENU</h3>
+    <p>bb</p>
+    <p>cc</p>
+    <p>dd</p>
+    <main>
+        <h1 class="empha">SELETORES PERSONALIZADOS</h1>
+        <h2>Seletor "id"</h2>
+        <p>O seletor id tem uma função muito especial. Dentro de um codigo css, quando queremos atribuir algum efeito a um codigo html, atribuimos um seletor css à tag desejada, contudo, a estilização será generalizada a todas as outras tags da mesma classe.</p>
+        <p>Para atribuir um id ao que desejamos esilizar, basta inserir o atributo id dentro da tag que desejada e então nomea-lo. Em seguida, inserimos um # seguido do nome do seletor, dentro do codigo css</p>
+        <code>NO HTML  <span class="code">&lt;h1 id="nome_do_id"&gt;</span>  ////NO CSS  <span class="code">#nome_do_id{ color= red;}</span> <br></code>
+        <h2>seletor "class"</h2>
+        <p>o seletor class apresenta a mesma função do id, contudo, com uma vantagem, ele pode ser apricado a varias tags. Sem essa limitação do id, class aparenta ser muito mais vantajoso.</p>
+        <p>para usa-lo, basta inserir o atributo class dentro da tag desejada e então nomea-lo. Em seguida, inserimos um ".", seguido do nome que demos ao seletor, dentro do codigo css.</p>
+        <code>NO HTML  <span class="code">&lt;h1 class="nome_do_seletor"&gt;</span>  ////NO CSS  <span class="code">#nome_do_seletor{ color= red;}</span> <br></code>
+        <p class="empha">OBS:!! Podemos adicionar as propriedades dos seletores não apenas às tags, mas tambem à frases, palavras e até mesmo a letras isoladas. Para isso, ultilizamos a tag span. Em seguida, apenas inserimos o atributo class à tag.</p>
+        <code class="code"> &lt;p&gt;Lorem, <span class="alternact">&lt;span class="estilizar"&gt;ipsum dolor&lt;/span&gt;</span> sit amet consectetur&lt;/p&gt;</code>
+        <p class="empha">OBS:!! O seletor id sobrepõe o seletor class, ou seja, se nessecitarmos de uma mudança extremamente pontual, podemos usa-lo sobre um id, para substituir a estilização inline.</p>
+        <p class="empha">OBS:!! Podemos inserir mais de uma classe em um mesmo atributo class (não precisamos separa-las por virgula):</p>
+        <code class="code">&lt;p class="estilizar1" class="estilizar2"&gt; lorem ipsum &lt;p&gt;</code>
+        
+    </main> 
+
+</body>
+</html>

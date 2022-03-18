@@ -1,0 +1,18 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'satan';
+    src: url('fonts/who\ asks\ satan.ttf') format('truetype');
+}
+
+
+h1{
+    font-family: 'satan', times, serif;
+    
+}
+
+h2{
+    font-family: 'satan';
+}
+p{
+    font-family: 'satan', 'Times New Roman', Times, serif;
+}

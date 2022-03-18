@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15%;
+    
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/*parte inicial do site*/
+header{
+    background-image: linear-gradient(to right, #090D0D, #1C3F3F, #357475);
+    padding:15px 10px;
+    margin: 0px 0px;
+}
+
+.title-supreme2{
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: medium; 
+}
+
+.title-supreme{
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 40px;
+    padding-top: 0px;
+
+}
+
+#login{
+    background-color: #1C3F3F;
+    position: relative;
+    left: 65%;
+    bottom: 90px;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+nav > a{   
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: bold;
+        margin:50px 40px 5px 10px;
+        padding: 5px 8px;
+        border-radius: 7px;
+}
+
+a:link{
+    color: whitesmoke;
+}
+ 
+a:hover{
+    color: whitesmoke;
+    background-color: #1C3F3F;
+}
+a:focus{
+    color: whitesmoke;
+    background-color: #1C3F3F;
+}
+
+/*Conteúdo do site*/
+
+        /*titulo*/
+#title-inicial{
+    position: absolute;
+    top: 27%;
+    left: 18%;
+}
+p{
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    left: 14%;
+    top: 35%;
+}
+h1, p, label{
+    color: #163131;
+}
+
+        /*formulario*/
+
+form#form{
+    border: none;
+    position: absolute;
+    left: 14%;
+    top: 45%;
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+fieldset{
+    border: 0px;
+}
+
+input, select, textarea, button{
+    border-radius: 7px;
+}
+.text{
+    border-width: 1px;
+}
+.text:focus{
+    background-color: #1c3f3f23
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+img{
+    position: absolute;
+    left: 60%;
+    top: 30%;
+}
