@@ -14,13 +14,14 @@
         <nav>
             <a href="home.html">Home</a>
             <a href="imc.html">IMC</a>
-            <a href="#">Mais artigos</a>
+            <a href="sobrenos.html">Sobre Nós</a>
             <a id="login" href="cadastro.html">Cadastro</a>
         </nav>
     </header> 
 
     <main>
         <h1 id="h1-classic">Classificação IMC</h1>
+        <!--tabela de imc-->
         <table>
             <tr>
                 <td id="td1">IMC</td>
@@ -53,8 +54,23 @@
                 <td id="td4">03</td>
             </tr>
         </table>
-        <p id="last-parag"><strong>O Que é IMC?:</strong>O IMC é um índice que mede se você está abaixo, dentro ou acima do peso, de acordo <br>com a relação entre seu peso e altura. Descubra como calcular esse índice, quais os valores ideais</p>
+
+        <!--calculadora de imc-->
+        
+            <h1 id="title-calculadora">Calcular IMC</h1>
+            <div id="identf-val-altu">
+                <h2>Altura (m)</h2>
+                <input id="altura" type="number">
+            </div>
+            <div id="identf-val-peso">
+                <h2>Peso (kg)</h2>
+                <input id="peso" type="number">
+            </div>
+            <button onclick="calculate()">Calcular</button>
+        
+        <!--paragrafo final(informação sobre imc)-->
+        <p id="last-parag"><strong>O Que é IMC?:</strong>O IMC é um índice que mede se você está abaixo, dentro ou acima do peso ideal, de acordo <br>com a relação entre seu peso e altura. Descubra como calcular esse índice e quais os valores ideais na tabela acima.</p>
     </main>
-    
+    <script src="imc.js"></script>
 </body>
 </html>

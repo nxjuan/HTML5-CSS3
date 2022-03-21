@@ -1,0 +1,12 @@
+h2{
+    color: darkgray;
+}
+
+h1{
+    margin-block-start: 0cm;
+    color: brown;
+}
+
+.input-area{
+    width: 60px
+}
