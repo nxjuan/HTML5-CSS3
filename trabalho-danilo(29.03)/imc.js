@@ -2,7 +2,7 @@ function calculate(){
     var altura=document.getElementById("altura").value
     var peso=document.getElementById("peso").value
 
-    var imc=peso/(altura**2)
+    var imc = (peso/(altura**2)).toFixed(2)
     if(imc<18.5){
         window.alert(imc + "Você Apresenta um Grau de Desnutrição")
     }else if(imc<24.9){
